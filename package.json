@@ -1,0 +1,21 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node node_modules/mocha/bin/_mocha --ui bdd --reporter spec ./services/**/*.spec.js",
+    "test-watch": "node node_modules/mocha/bin/_mocha --watch --ui bdd --reporter spec ./services/**/*.spec.js"
+  },
+  "author": "luis doebbel",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "lodash": "^3.10.1"
+  }
+}
